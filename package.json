@@ -2,7 +2,7 @@
   "name": "anemia_demo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shey-esther.github.io/portaforview",
+  "homepage": "https://shey-esther.github.io/Portafoliof",
   "dependencies": {
     "animate.css": "^3.5.2",
     "firebase": "^4.5.2",
