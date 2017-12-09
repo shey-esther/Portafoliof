@@ -1,0 +1,118 @@
+@import '_variables';
+body{
+  background-color: color_mocasin;
+}
+.collapse{
+  margin: 10px 30px 10px 0px;
+}
+.list{
+  font-weight : 600;
+  color: rgb(234, 240, 238) !important;
+  // border: 2px solid white !important;
+}
+
+.navhome{
+  background: -webkit-linear-gradient(left, rgba(5, 160, 124, 0.91) ,rgba(223, 235, 232, 0.91)); 
+  background: -o-linear-gradient(left,  rgba(5, 160, 124, 0.91) , rgba(5, 160, 124, 0.91));
+  background: -moz-linear-gradient(left, rgba(5, 160, 124, 0.91) , rgba(5, 160, 124, 0.91)); 
+  background: linear-gradient(left, rgba(5, 160, 124, 0.91), rgba(5, 160, 124, 0.91)); //   .imglogo{
+//     margin-top: 0.2%;
+//     width: 3%;
+//     position: fixed;
+//     margin-left: 3%;
+//   }
+// @media (max-width: 732px){
+//     .imglogo{
+//       width: 11%;
+//     }
+//     .bodyme{
+//       height: 100vh;
+//     }
+//   }
+  li:hover{
+    border: 1.5px solid white !important;
+  }
+}
+
+.bodyme{
+  text-align: center;
+  background-image: url('../img/cafe.jpg');
+  background-size: cover;
+  // position: relative;
+  width: 100%;
+  background-repeat: no-repeat; 
+  // opacity: 0.8;
+  &__opac{
+    background-color: rgba(190, 240, 220, 0.38);   
+    padding-bottom: 300px;
+    padding-top: 10%;
+  }
+  &__title{
+    font-family: 'Fredericka the Great', cursive;
+    color: #070707;
+    letter-spacing: 0;
+    // text-shadow: -3px -3px 3px  white, 3px -3px 3px  white, -3px 3px 3px  white, 3px 3px 3px white;
+    text-shadow: -2px -2px 1px #F7F5F5, 2px 2px 1px #F5F2F2, -2px 2px 1px #F8F7F7, 2px -2px 1px #F8F5F5;
+    font-size: 5em;
+    font-weight: 600;
+    margin: 0.5em 0 0.1em 0;
+    margin-top: 0px;
+  }
+  @media (max-width: 732px){
+    &__title{
+      margin-top: 10px;      
+    }
+    &__opac{
+      padding-top: 30%;
+    }
+  }
+
+  &__subtitle{
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    margin-top: 3%;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: "Raleway", sans-serif;
+    color:$color_rosa;
+  }
+  &__link {
+    color: $subtitulo_fa;
+    font-size: 1.5em;
+    padding: 0.3em 1.5em;
+    border-radius: 5px;
+    border: 1px solid $color_rosa;
+    color: $color_rosa;
+    margin-right: 1em;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 568px){
+  .navhome .imglogo{
+    width: 14%;
+  }
+  .bodyme__title {
+    font-size: 3em;
+  }
+}
+@media (max-width: 667px){
+  .navhome .imglogo{
+    width: 12%;
+  }
+  .bodyme__title {
+    font-size: 4em;
+  }
+}
+@media (max-width: 736px){
+  .navhome .imglogo{
+    width: 11%;
+  }
+  .bodyme__title {
+    margin-top: 7%;
+    font-size: 4em;
+  }
+}
+
+

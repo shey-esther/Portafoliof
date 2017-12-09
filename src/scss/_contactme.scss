@@ -1,0 +1,93 @@
+@import '_variables';
+
+.contacto-content {
+  padding: 10% 0% 30% 0%;
+  color: #393939;
+  padding-bottom: 8em;
+  background-image: url('../img/contac.png');
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat; 
+  .leterspac{
+    margin-bottom: 5%;
+  }
+  .imgpng{
+    width: 100%;
+    height: 30px;
+  }
+  .title-section {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 350%;
+    margin-bottom: 7%;
+  }
+  @media (max-width: 732px){
+    .title-section {
+        font-size: 250%;      
+        margin-top: 25%;
+    }
+  }
+  @media (max-width: 568px){
+    .title-section {
+      font-size: 250%;
+      margin-top: 9%;
+    }
+    .leterspac{
+      margin-bottom: 0%;
+    }
+  }
+  @media (max-width: 667px){
+    .leterspac{
+      margin-bottom: 16%;
+  }
+}
+@media (max-width: 736px){
+  .title-section {
+    margin-top: 15%;
+    margin-bottom: 12%;
+  }
+}
+  .contact-cols {
+    margin-bottom: 2em;
+    h4 {
+      font-family:$subtitulo_fa;
+    }
+    .mr-1 {
+      margin-right: 0.8em;
+      font-size: 1.2em;
+      color: $color_rosa;
+    }
+    a {
+      text-decoration: none !important;
+      i {
+        text-decoration: none;
+        background-color: $color_rosa;
+        border: 1px solid $color_rosa;
+        border-radius: 100%;
+        padding: 3%;
+        margin: 0 1%;
+        color: white;
+        font-size: 1.5em;
+      }
+    }
+  }
+  .icon-download2{
+    font-size: 1.5em;
+    padding: 0.3em 1.5em;
+    border-radius: 5px;
+    border: 1px solid $color_rosa;
+    color: $color_rosa;
+    margin-right: 1em;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 700px){
+  .contacto-content{
+    background-image:none;
+    background-color: #eeeeee;
+  }
+}
+.autor {
+  background-color: $negro;
+  color: white;
+  padding: 1.2em 0;
+}
